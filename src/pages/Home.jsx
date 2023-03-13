@@ -26,7 +26,7 @@ const Home = () => {
           <Link to="/myprofile">MyProfile</Link>
         </li>
         <li>
-          <Link to="/stories">Stories</Link>
+          <Link to="/">Stories</Link>
         </li>
         <li>
           <Link to="/messages">Messages</Link>

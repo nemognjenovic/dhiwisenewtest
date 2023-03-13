@@ -70,7 +70,7 @@ const SignupPage = () => {
                 <Input
                   wrapClassName="border-[1px] border-gray_500_6c border-solid pl-[15px] pr-[35px] py-[15px] rounded-[8px] w-[100%]"
                   className="font-normal not-italic p-[0] placeholder:text-gray_500 sm:pr-[20px] text-[14px] text-gray_500 text-left w-[100%]"
-                  name="groupThirtyFour"
+                  name="group336"
                   placeholder="Anne Carry"
                 ></Input>
               </div>
@@ -109,7 +109,7 @@ const SignupPage = () => {
                   wrapClassName="border-[1px] border-gray_500_6c border-solid flex px-[15px] py-[14px] rounded-[8px] w-[100%]"
                   className="font-normal not-italic p-[0] placeholder:text-gray_500 text-[14px] text-gray_500 text-left w-[100%]"
                   type="password"
-                  name="groupThirtyTwo"
+                  name="group334"
                   placeholder="Password@123"
                   suffix={
                     <Img

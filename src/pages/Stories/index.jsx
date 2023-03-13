@@ -2,8 +2,11 @@ import React from "react";
 
 import { Img, Input, Text, Button, Line } from "components";
 import { CloseSVG } from "../../assets/images";
+import { useNavigate } from "react-router-dom";
 
 const StoriesPage = () => {
+  const navigate = useNavigate();
+
   const [inputvalue, setInputvalue] = React.useState("");
 
   return (
@@ -140,7 +143,8 @@ const StoriesPage = () => {
                   <div className="h-[380px] relative w-[100%]">
                     <Img
                       src="images/img_image_380x255.png"
-                      className="h-[380px] m-[auto] object-cover rounded-[8px] w-[100%]"
+                      className="common-pointer h-[380px] m-[auto] object-cover rounded-[8px] w-[100%]"
+                      onClick={() => navigate("/singlestory")}
                       alt="image"
                     />
                     <div className="absolute bg-gradient1  flex h-[100%] inset-[0] items-center justify-center m-[auto] p-[40px] sm:px-[20px] rounded-[8px] w-[100%]">

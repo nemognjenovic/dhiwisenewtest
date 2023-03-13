@@ -30,14 +30,13 @@ const ProjectRoutes = () => {
     <React.Suspense fallback={<>Loading...</>}>
       <Router>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Stories />} />
           <Route path="*" element={<NotFound />} />
           <Route path="/notifications" element={<Notifications />} />
           <Route path="/events" element={<Events />} />
           <Route path="/singlevideo" element={<SingleVideo />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/myprofile" element={<MyProfile />} />
-          <Route path="/stories" element={<Stories />} />
           <Route path="/messages" element={<Messages />} />
           <Route path="/singlepost" element={<SinglePost />} />
           <Route path="/singleevent" element={<SingleEvent />} />
@@ -55,6 +54,7 @@ const ProjectRoutes = () => {
           <Route path="/passwordrecovery" element={<PasswordRecovery />} />
           <Route path="/videofullscreen" element={<VideoFullScreen />} />
           <Route path="/singlestory" element={<SingleStory />} />
+          <Route path="/dhiwise-dashboard" element={<Home />} />
         </Routes>
       </Router>
     </React.Suspense>

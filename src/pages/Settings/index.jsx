@@ -80,7 +80,7 @@ const SettingsPage = () => {
                     <Input
                       wrapClassName="bg-white_A700 pl-[15px] pr-[35px] py-[15px] rounded-[8px] w-[100%]"
                       className="font-normal not-italic p-[0] placeholder:text-gray_500 sm:pr-[20px] text-[14px] text-gray_500 text-left w-[100%]"
-                      name="groupThirty"
+                      name="group332"
                       placeholder="Anne Carry"
                     ></Input>
                   </div>
@@ -95,7 +95,7 @@ const SettingsPage = () => {
                     <Input
                       wrapClassName="bg-white_A700 flex pb-[12px] pt-[15px] px-[15px] rounded-[8px] w-[100%]"
                       className="font-normal not-italic p-[0] placeholder:text-gray_500 text-[14px] text-gray_500 text-left w-[100%]"
-                      name="groupTwentyNine"
+                      name="group331"
                       placeholder="annecarry"
                       suffix={
                         <Img
@@ -164,7 +164,7 @@ const SettingsPage = () => {
                     <Input
                       wrapClassName="bg-white_A700 flex p-[15px] rounded-[8px] w-[100%]"
                       className="font-normal not-italic p-[0] placeholder:text-gray_500 text-[14px] text-gray_500 text-left w-[100%]"
-                      name="groupTwentyFive"
+                      name="group327"
                       placeholder="United States"
                       suffix={
                         <Img
@@ -186,7 +186,7 @@ const SettingsPage = () => {
                     <Input
                       wrapClassName="bg-white_A700 flex p-[15px] rounded-[8px] w-[100%]"
                       className="font-normal not-italic p-[0] placeholder:text-gray_500 text-[14px] text-gray_500 text-left w-[100%]"
-                      name="groupTwentyFour"
+                      name="group326"
                       placeholder="California"
                       suffix={
                         <Img
@@ -209,7 +209,7 @@ const SettingsPage = () => {
                   <Input
                     wrapClassName="bg-white_A700 flex p-[15px] rounded-[8px] w-[100%]"
                     className="font-normal not-italic p-[0] placeholder:text-gray_500 text-[14px] text-gray_500 text-left w-[100%]"
-                    name="groupTwentySix"
+                    name="group328"
                     placeholder="San Francisco"
                     suffix={
                       <Img

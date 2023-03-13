@@ -2,8 +2,11 @@ import React from "react";
 
 import { Img, Input, Text, Button, List } from "components";
 import { CloseSVG } from "../../assets/images";
+import { useNavigate } from "react-router-dom";
 
 const NotificationsPage = () => {
+  const navigate = useNavigate();
+
   const [inputvalue, setInputvalue] = React.useState("");
 
   return (
@@ -339,7 +342,10 @@ const NotificationsPage = () => {
         >
           <div className="flex flex-col gap-[45px] items-end justify-start mb-[28px] mt-[5px] md:w-[100%] w-[98%]">
             <div className="flex flex-row gap-[20px] items-center justify-end ml-[auto] md:w-[100%] w-[35%]">
-              <Button className="bg-gray_900 flex h-[48px] items-center justify-center p-[12px] rounded-[12px] w-[48px]">
+              <Button
+                className="common-pointer bg-gray_900 flex h-[48px] items-center justify-center p-[12px] rounded-[12px] w-[48px]"
+                onClick={() => navigate(-1)}
+              >
                 <Img
                   src="images/img_close.svg"
                   className="h-[22px]"

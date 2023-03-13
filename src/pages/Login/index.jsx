@@ -94,7 +94,7 @@ const LoginPage = () => {
                   wrapClassName="border-[1px] border-gray_500_6c border-solid flex px-[15px] py-[14px] rounded-[8px] w-[100%]"
                   className="font-normal not-italic p-[0] placeholder:text-gray_500 text-[14px] text-gray_500 text-left w-[100%]"
                   type="password"
-                  name="groupThirtyFive"
+                  name="group337"
                   placeholder="Password@123"
                   suffix={
                     <Img
